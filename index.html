@@ -8,6 +8,104 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 lg:container lg:mx-auto p-4">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li class="p-2"><a>Home</a></li>
+                      <li class="p-2"><a>Service </a></li>
+                      <li class="p-2"><a>Cases </a></li>
+                      <li class="p-2"><a>Blog </a></li>
+                      <li class="p-2"><a>Contact Us </a></li>
+                    </ul>
+                  </div>
+                  <a class="normal-case text-xl"><img src="./images/logo2.png"alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Service > </a></li>
+                    <li><a>Cases > </a></li>
+                    <li><a>Blog > </a></li>
+                    <li><a>Contact Us > </a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn bg-stone-500 rounded-lg px-7 text-white hover:text-gray-800 ">Free Consultation</button>
+                </div>
+              </div>
+        </nav>
+        <div class="container mx-auto hero max-w-[1180px] min-h-[600px]" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-2 text-white text-6xl font-extrabold leading-[75px]">We Provide Effective Legal Solutions</h1>
+                <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="search flex gap-3">
+                    <input type="text" placeholder="Type here" class="input w-full max-w-lg" />
+                    <button class="btn bg-stone-500 rounded-lg text-white text-sm font-semibold px-4 py-2 hover:text-gray-600 p-2 border-0">Search</button>
+                </div>
+              </div>
+            </div>
+          </div>
+     </header>
+     <!-- header seciton complate  -->
+     <section class="container mx-auto my-8">
+      <div class="text-center text-neutral-700 text-[32px] sm:text-[40px] font-extrabold">The Legal Practice Area</div>
+      <div class="max-w-[700px] text-center text-neutral-500 text-sm lg:text-base font-normal leading-relaxed mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</div> 
+      
+      
+    <div class="grid my-6 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1">
 
+<!-- card-1  -->
+<div class="card max-w-[396px] h-[450px] flex flex-col items-center gap-2 sm:p-12 lg:p-16 p-10 mx-auto border-neutral-200 lg:border-b-2 rounded-none">
+  <img src="./images/business.png" class="w-16" alt="">
+  <p class="text-center text-neutral-700 text-[32px] font-extrabold">Business Law</p>
+  <div class="text-center text-neutral-500 lg:text-base text-sm lg:font-normal leading-relaxed">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</div>
+  <img src="./images/Frame.png" alt="">
+  </div>
+<!-- card-2  -->
+<div class="card max-w-[396px] h-[450px] flex flex-col items-center gap-2 sm:p-12 lg:p-16 p-10 mx-auto border border-t-0 border-neutral-200 bg-gradient-to-b from-zinc-100 to-zinc-100 rounded-none">
+  <img src="./images/criminal.png" class="w-16" alt="">
+  <p class="text-center text-neutral-700 text-[32px] font-extrabold">Criminal Law</p>
+  <div class="text-center text-neutral-500 lg:text-base text-sm font-normal leading-relaxed">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</div>
+  <img src="./images/Frame.png" alt="">
+  </div>
+<!-- card-3  -->
+<div class="card max-w-[396px] h-[450px] flex flex-col items-center gap-2 sm:p-12 lg:p-16 p-10 sm:mx-none mx-auto border-neutral-200 lg:border-b-2 rounded-none">
+  <img src="./images/child.png" class="w-16" alt="">
+  <p class="text-center text-neutral-700 text-[32px] font-extrabold">Child Support</p>
+  <div class="text-center text-neutral-500 lg:text-base text-sm font-normal leading-relaxed">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</div>
+  <img src="./images/Frame.png" alt="">
+  </div>
+<!-- card-4  -->
+<div class="card max-w-[396px] h-[450px] flex flex-col items-center gap-2 sm:p-12 lg:p-16 p-10 mx-auto">
+  <img src="./images/education.png" class="w-16" alt="">
+  <p class="text-center text-neutral-700 text-[32px] font-extrabold">Education Law</p>
+  <div class="text-center text-neutral-500 lg:text-base text-sm font-normal leading-relaxed">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</div>
+  <img src="./images/Frame.png" alt="">
+  </div>
+<!-- card-5  -->
+<div class="card max-w-[396px] h-[450px] flex flex-col items-center gap-2 sm:p-12 lg:p-16 p-10 mx-auto border-l-2 border-r-2 lg: rounded-none">
+  <img src="./images/divorce.png" class="w-16" alt="">
+  <p class="text-center text-neutral-700 text-[32px] font-extrabold">Divorce Law</p>
+  <div class="text-center text-neutral-500 lg:text-base text-sm font-normal leading-relaxed">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</div>
+  <img src="./images/Frame.png" alt="">
+  </div>
+<!-- card-6  -->
+<div class="card max-w-[396px] h-[450px] flex flex-col items-center gap-2 sm:p-12 lg:p-16 p-10 mx-auto">
+  <img src="./images/tax.png" class="w-16" alt="">
+  <p class="text-center text-neutral-700 text-[32px] font-extrabold">Tax Law</p>
+  <div class="text-center text-neutral-500 lg:text-base text-sm font-normal leading-relaxed">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</div>
+  <img src="./images/Frame.png" alt="">
+  </div>
+    </div> 
+    </section>
+    <!-- types of law section done  -->
 </body>
 </html>
